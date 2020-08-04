@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84a8f8583220a9a96bb2edda94fdfaef",
+    "content-hash": "e867345f5be661f1820aae1171a8e3c5",
     "packages": [
         {
             "name": "league/flysystem",
@@ -148,73 +148,6 @@
             ],
             "description": "An adapter decorator to enable meta-data caching.",
             "time": "2020-07-25T15:56:04+00:00"
-        },
-        {
-            "name": "opis/closure",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/opis/closure.git",
-                "reference": "dec9fc5ecfca93f45cd6121f8e6f14457dff372c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/opis/closure/zipball/dec9fc5ecfca93f45cd6121f8e6f14457dff372c",
-                "reference": "dec9fc5ecfca93f45cd6121f8e6f14457dff372c",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "php": "^5.4 || ^7.0"
-            },
-            "require-dev": {
-                "jeremeamia/superclosure": "^2.0",
-                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.5.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Opis\\Closure\\": "src/"
-                },
-                "files": [
-                    "functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marius Sarca",
-                    "email": "marius.sarca@gmail.com"
-                },
-                {
-                    "name": "Sorin Sarca",
-                    "email": "sarca_sorin@hotmail.com"
-                }
-            ],
-            "description": "A library that can be used to serialize closures (anonymous functions) and arbitrary objects.",
-            "homepage": "https://opis.io/closure",
-            "keywords": [
-                "anonymous functions",
-                "closure",
-                "function",
-                "serializable",
-                "serialization",
-                "serialize"
-            ],
-            "time": "2020-06-17T14:59:55+00:00"
         },
         {
             "name": "psr/cache",
@@ -432,16 +365,16 @@
         },
         {
             "name": "topthink/framework",
-            "version": "v6.0.0",
+            "version": "6.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/framework.git",
-                "reference": "79c555aab0313d1a33ddcdb3c395f2c47f37f597"
+                "reference": "8ffdf99cdfda5d351a6f1db9386013d48457afca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/framework/zipball/79c555aab0313d1a33ddcdb3c395f2c47f37f597",
-                "reference": "79c555aab0313d1a33ddcdb3c395f2c47f37f597",
+                "url": "https://api.github.com/repos/top-think/framework/zipball/8ffdf99cdfda5d351a6f1db9386013d48457afca",
+                "reference": "8ffdf99cdfda5d351a6f1db9386013d48457afca",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -455,7 +388,6 @@
                 "ext-mbstring": "*",
                 "league/flysystem": "^1.0",
                 "league/flysystem-cached-adapter": "^1.0",
-                "opis/closure": "^3.1",
                 "php": ">=7.1.0",
                 "psr/container": "~1.0",
                 "psr/log": "~1.0",
@@ -496,7 +428,7 @@
                 "orm",
                 "thinkphp"
             ],
-            "time": "2019-10-23T23:28:43+00:00"
+            "time": "2020-07-27T08:35:17+00:00"
         },
         {
             "name": "topthink/think-helper",
