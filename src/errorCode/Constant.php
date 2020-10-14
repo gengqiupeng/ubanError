@@ -38,6 +38,18 @@ class Constant
      * @var int 用户尚未登录
      */
     public static $USER_IS_NOT_LOGIN = 40004;
+    /**
+     * @var int 账号或密码错误
+     */
+    public static $USER_PASSWORD_ERROR = 40005;
+    /**
+     * @var int 用户不存在
+     */
+    public static $USER_IS_NOT_EXISTS = 40006;
+    /**
+     * @var int 用户已过期
+     */
+    public static $USER_IS_EXPIRED = 40007;
     //-------------------业务逻辑相关-----------------------------------------//
     /**
      * @var int 业务逻辑错误
