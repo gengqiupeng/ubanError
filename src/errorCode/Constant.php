@@ -50,6 +50,11 @@ class Constant
      * @var int 用户已过期
      */
     public static $USER_IS_EXPIRED = 40007;
+
+    /**
+     * @var int 用户凭证已过期
+     */
+    public static $USER_TOKEN_IS_EXPIRED = 40008;
     //-------------------业务逻辑相关-----------------------------------------//
     /**
      * @var int 业务逻辑错误
