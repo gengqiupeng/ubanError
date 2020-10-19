@@ -64,6 +64,14 @@ class Constant
      * @var int 邀请过期
      */
     public static $BUSINESS_INVITED_EXPIRE = 50002;
+    /**
+     * @var int 业务已处理
+     */
+    public static $BUSINESS_HANDLED = 50003;
+    /**
+     * @var int 业务未处理
+     */
+    public static $BUSINESS_NOT_HANDLED = 50004;
 
     //-----------------数据相关错误-------------------------------------//
     /**
