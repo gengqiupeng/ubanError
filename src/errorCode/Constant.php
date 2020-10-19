@@ -60,6 +60,10 @@ class Constant
      * @var int 业务逻辑错误
      */
     public static $BUSINESS_ERROR = 50001;
+    /**
+     * @var int 邀请过期
+     */
+    public static $BUSINESS_INVITED_EXPIRE = 50002;
 
     //-----------------数据相关错误-------------------------------------//
     /**

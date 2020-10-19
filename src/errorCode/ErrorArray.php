@@ -24,7 +24,9 @@ class ErrorArray
                 Constant::$USER_TOKEN_IS_EXPIRED => '用户信息过期',
 
                 Constant::$DATA_NOT_FOUND => "结果不存在",
-                Constant::$DATA_DUPLICATE => "数据重复"
+                Constant::$DATA_DUPLICATE => "数据重复",
+
+                Constant::$BUSINESS_INVITED_EXPIRE=>'邀请过期',
             ],
         ];
     }
