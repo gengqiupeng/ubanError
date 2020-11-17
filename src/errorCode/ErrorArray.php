@@ -9,6 +9,24 @@ class ErrorArray
     {
         return [
             'en' => [
+                Constant::$SUCCESS_NUM         => "success",
+                Constant::$FAIL_NUM            => 'error',
+                Constant::$REQUEST_PARAM_ERROR => 'param error',
+                Constant::$DB_ERROR            => 'db error',
+
+                Constant::$BUSINESS_INVITED_EXPIRE => 'expire',
+                Constant::$BUSINESS_ERROR          => 'business error',
+                Constant::$BUSINESS_HANDLED        => 'already done',
+                Constant::$BUSINESS_NOT_HANDLED        => 'not handled',
+
+                Constant::$USER_IS_NOT_LOGIN     => 'please login first',
+                Constant::$USER_PASSWORD_ERROR   => 'username or password error',
+                Constant::$USER_IS_NOT_EXISTS    => 'user not exists',
+                Constant::$USER_IS_EXPIRED       => 'user is expired',
+                Constant::$USER_TOKEN_IS_EXPIRED => 'auth is expired',
+
+                Constant::$DATA_NOT_FOUND => "no data found",
+                Constant::$DATA_DUPLICATE => "data duplicate",
             ],
             'cn' => [
                 Constant::$SUCCESS_NUM         => "请求成功",
