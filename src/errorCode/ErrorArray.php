@@ -17,13 +17,14 @@ class ErrorArray
                 Constant::$BUSINESS_INVITED_EXPIRE => 'expire',
                 Constant::$BUSINESS_ERROR          => 'business error',
                 Constant::$BUSINESS_HANDLED        => 'already done',
-                Constant::$BUSINESS_NOT_HANDLED        => 'not handled',
+                Constant::$BUSINESS_NOT_HANDLED    => 'not handled',
 
                 Constant::$USER_IS_NOT_LOGIN     => 'please login first',
                 Constant::$USER_PASSWORD_ERROR   => 'username or password error',
                 Constant::$USER_IS_NOT_EXISTS    => 'user not exists',
                 Constant::$USER_IS_EXPIRED       => 'user is expired',
                 Constant::$USER_TOKEN_IS_EXPIRED => 'auth is expired',
+                Constant::$USER_AUTH_FAILED      => 'auth failed',
 
                 Constant::$DATA_NOT_FOUND => "no data found",
                 Constant::$DATA_DUPLICATE => "data duplicate",
@@ -37,13 +38,14 @@ class ErrorArray
                 Constant::$BUSINESS_INVITED_EXPIRE => '邀请过期',
                 Constant::$BUSINESS_ERROR          => '业务逻辑错误',
                 Constant::$BUSINESS_HANDLED        => '已处理完毕',
-                Constant::$BUSINESS_NOT_HANDLED        => '业务未处理',
+                Constant::$BUSINESS_NOT_HANDLED    => '业务未处理',
 
                 Constant::$USER_IS_NOT_LOGIN     => '请先登录',
                 Constant::$USER_PASSWORD_ERROR   => '用户名或密码错误',
                 Constant::$USER_IS_NOT_EXISTS    => '用户不存在',
                 Constant::$USER_IS_EXPIRED       => '用户已过期',
                 Constant::$USER_TOKEN_IS_EXPIRED => '用户信息过期',
+                Constant::$USER_AUTH_FAILED      => '认证授权失败',
 
                 Constant::$DATA_NOT_FOUND => "结果不存在",
                 Constant::$DATA_DUPLICATE => "数据重复",
