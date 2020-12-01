@@ -60,6 +60,15 @@ class Constant
      * @var int 用户授权失败
      */
     public static $USER_AUTH_FAILED = 40009;
+    /**
+     * @var int 验证码过期
+     */
+    public static $USER_RANDOM_CODE_EXPIRE = 40010;
+    /**
+     * @var int 验证码错误
+     */
+    public static $USER_RANDOM_CODE_ERROR = 40011;
+
     //-------------------业务逻辑相关-----------------------------------------//
     /**
      * @var int 业务逻辑错误
@@ -77,6 +86,10 @@ class Constant
      * @var int 业务未处理
      */
     public static $BUSINESS_NOT_HANDLED = 50004;
+    /**
+     * @var int 输入数据错误
+     */
+    public static $BUSINESS_INPUT_ERROR = 50005;
 
     //-----------------数据相关错误-------------------------------------//
     /**
