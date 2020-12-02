@@ -68,6 +68,10 @@ class Constant
      * @var int 验证码错误
      */
     public static $USER_RANDOM_CODE_ERROR = 40011;
+    /**
+     * @var int 用户不存在
+     */
+    public static $USER_IS_EXISTS = 40012;
 
     //-------------------业务逻辑相关-----------------------------------------//
     /**
